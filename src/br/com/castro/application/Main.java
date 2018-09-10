@@ -23,6 +23,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,350,200);
 			scene.eventDispatcherProperty();
 			this.telaLogin.setScene(scene);
+			this.telaLogin.setTitle("Login");
 			this.telaLogin.show();
 			
 		} catch(Exception e) {
@@ -39,6 +40,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root, 800, 800);
 			scene.eventDispatcherProperty();
 			this.telaPrincipal.setScene(scene);
+			this.telaPrincipal.setTitle("Home");
 			this.telaPrincipal.show();
 			
 		} catch (Exception e) {
