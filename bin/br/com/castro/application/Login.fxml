@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.castro.controller.Login">
    <children>
       <AnchorPane layoutX="6.0" layoutY="5.0" prefHeight="190.0" prefWidth="313.0">
          <children>
@@ -19,7 +19,7 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <Button layoutX="113.0" layoutY="136.0" mnemonicParsing="false" text="Login" />
+            <Button layoutX="113.0" layoutY="136.0" mnemonicParsing="false" onAction="#testeTela" text="Login" />
          </children>
       </AnchorPane>
    </children>
