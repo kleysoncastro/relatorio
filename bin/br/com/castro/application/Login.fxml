@@ -19,7 +19,7 @@
                   <Font size="22.0" />
                </font>
             </Label>
-            <Button layoutX="113.0" layoutY="136.0" mnemonicParsing="false" onAction="#testeTela" text="Login" />
+            <Button fx:id="BTLogin" layoutX="113.0" layoutY="136.0" mnemonicParsing="false" onAction="#testeTela" text="Login" />
          </children>
       </AnchorPane>
    </children>

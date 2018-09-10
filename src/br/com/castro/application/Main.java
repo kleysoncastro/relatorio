@@ -21,6 +21,7 @@ public class Main extends Application {
 	
 			Pane root = FXMLLoader.load(getClass().getResource("Login.fxml"));
 			Scene scene = new Scene(root,350,200);
+			scene.eventDispatcherProperty();
 			this.telaLogin.setScene(scene);
 			this.telaLogin.show();
 			
@@ -36,6 +37,7 @@ public class Main extends Application {
 			
 			Pane root = FXMLLoader.load(getClass().getResource("TelaPrincipal.fxml"));
 			Scene scene = new Scene(root, 800, 800);
+			scene.eventDispatcherProperty();
 			this.telaPrincipal.setScene(scene);
 			this.telaPrincipal.show();
 			
