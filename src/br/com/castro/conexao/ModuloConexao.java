@@ -15,7 +15,7 @@ public class ModuloConexao {
 		//String driver = "com.mysql.jdbc.Driver";
 		String driver = "com.mysql.cj.jdbc.Driver";
 		// retira erro para ssl, ainda em teste
-	String url = "jdbc:mysql://localhost:3306/mda?useSSL=false";
+	String url = "jdbc:mysql://localhost:3306/login?useSSL=false";
 	String user = "root";
 	String senha = "toor";
 	
